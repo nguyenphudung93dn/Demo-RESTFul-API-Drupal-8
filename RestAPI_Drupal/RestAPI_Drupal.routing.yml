@@ -1,0 +1,29 @@
+# RestAPI_Drupal endpoints
+
+RestAPI_Drupal.get:
+  path: 'RestAPI_Drupal/get.json'
+  defaults: { _controller: '\Drupal\RestAPI_Drupal\Controller\RestAPI_DrupalController::get_example' }
+  methods:  [GET]
+  requirements:
+    _access: 'TRUE'
+
+RestAPI_Drupal.put:
+  path: 'RestAPI_Drupal/put.json'
+  defaults: { _controller: '\Drupal\RestAPI_Drupal\Controller\RestAPI_DrupalController::put_example' }
+  methods:  [PUT]
+  requirements:
+    _access: 'TRUE'
+
+RestAPI_Drupal.post:
+  path: 'RestAPI_Drupal/post.json'
+  defaults: { _controller: '\Drupal\RestAPI_Drupal\Controller\RestAPI_DrupalController::post_example' }
+  methods:  [POST]
+  requirements:
+    _access: 'TRUE'
+
+RestAPI_Drupal.delete:
+  path: 'RestAPI_Drupal/delete.json'
+  defaults: { _controller: '\Drupal\RestAPI_Drupal\Controller\RestAPI_DrupalController::delete_example' }
+  methods:  [DELETE]
+  requirements:
+    _access: 'TRUE'
