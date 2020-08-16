@@ -4,6 +4,6 @@ This is a very simple module that demonstrates implementation of a custom RESTfu
 
 The module example supports GET/POST/PUT/DELETE methods. The module doesn't have authentication.
 
-https://drupal.com.vn/custom-restful-api-drupal-8
+https://devweekend.info/restful-api-in-drupal-8/
 
 
